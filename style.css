@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.main-header {
+   height: 60px;
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 0;
+    padding: 50px;
+    background-color: whitesmoke ;
+    background-size: 100%;
+}
+.logo {
+
+    margin-left: 50px;
+}
+.main-ul {
+    list-style-type: none;
+    margin-right: 70px;
+    
+}
+    
+.nav-link {
+    text-decoration: none;
+    color: red;
+    font-family: "alk_life.otf", Arial, Helvetica, sans-serif;
+}
+.nav-link2 {
+    text-decoration: none;
+    color: grey;
+    font-family: "alk_life.otf", Arial, Helvetica, sans-serif;
+}
+.first-li {
+    display: inline;
+    justify-content: space-between;
+    margin-inline: 20px;
+   
+    }
+    
+.parent {
+   display: flex;
+   justify-content: center;
+   margin-top: 80px;
+
+}
+.main-heading {
+    display: flex;
+    margin-left: 145px;
+    margin-top: 30px;
+    display: flex;
+    
+}
+.heading {
+    margin-left: 30px;
+    color: #717276;
+}
+div {
+    display: flex;
+    display: inline-block;
+   margin-left: 70px;
+   margin-top: 20px;
+}
+.text  {
+    color: #717276;
+    display: block;
+    font-family: "alk_life.otf",Arial, Helvetica, sans-serif;
+}
+.text-1 {
+    color:#717276;
+font-family: "bpg_dejavu_sans.ttf" Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+
+.footer-ul {
+    list-style-type: none;
+}
+
+.footer {
+    font-family: "alk_life.otf",Arial, Helvetica, sans-serif;
+
+}
+
+.icons {
+    color: black;
+    margin-right: 20px;
+}
+
+
+
+
+@font-face {
+    font-family: "alk_life.otf";
+    src: url(alk_life.otf);
+}
+@font-face {
+    font-family: "bpg_dejavu_sans.ttf",Arial, Helvetica, sans-serif;
+    src: url(bpg_dejavu_sans.ttf);
+}
